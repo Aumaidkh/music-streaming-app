@@ -1,4 +1,4 @@
-package com.implecode.spotify
+package com.implecode.spotify.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestManager
-import com.implecode.spotify.ui.theme.SpotifyTheme
+import com.implecode.spotify.presentation.ui.theme.SpotifyTheme
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

@@ -1,4 +1,4 @@
-package com.implecode.spotify.ui.theme
+package com.implecode.spotify.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
