@@ -45,7 +45,7 @@ class FirebaseMusicSource @Inject constructor(
             desc,
             FLAG_PLAYABLE
         )
-    }
+    }.toMutableList()
 
     suspend fun fetchMediaData() = withContext(Dispatchers.IO){
         // Change state to initializing
