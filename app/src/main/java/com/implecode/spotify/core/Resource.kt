@@ -13,9 +13,9 @@ data class Resource<out T>(
             message = null
         )
 
-        fun <T> error(message: String?) = Resource(
+        fun <T> error(message: String?,data: T?) = Resource(
             status = Status.ERROR,
-            data = null,
+            data = data,
             message = message
         )
 
